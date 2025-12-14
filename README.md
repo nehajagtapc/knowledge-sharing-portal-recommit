@@ -1,152 +1,124 @@
-# Project : Knowledge Sharing Portal
+# Knowledge Sharing Portal
 
-Technology: Angular , Firebase Hosting
+🌐 **Live Application:** [https://sharingportal-177c1.web.app](https://sharingportal-177c1.web.app)
 
-Description : 
-- This project provides multiple functionality by which any member of Institute can share there knowledge on our portal.
-- All the basic and advance concept of Angular are use like ICC (Inter component communication) , Services , Dependence Injection etc.
-- We deploy our application using Firebase.
+---
 
-Development Server : 
-- Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+## 📌 Project Overview
 
-Build : 
-Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build
-- https://sharingportal-177c1.web.app
+The **Knowledge Sharing Portal** is a web-based application designed to enable members of an institute to share, access, and manage knowledge resources in a centralized platform. The portal encourages collaborative learning by allowing users to contribute and explore content related to various technical and academic topics.
 
-Running Unit Tests : 
-- Run ng test to execute the unit tests via Karma.
-Further Help : 
-- To get more help on the Angular CLI use ng help
+This project focuses on implementing modern frontend development practices using Angular, along with cloud-based deployment using Firebase Hosting.
 
-# Project : Periodic Process Logger with Auto Scheduled Log Report Facility 
+---
 
-Technology : Python
+## 🛠️ Technology Stack
 
-Description : 
+* **Frontend Framework:** Angular
+* **Hosting & Deployment:** Firebase Hosting
+* **Language:** TypeScript, HTML, CSS
+* **Testing Framework:** Karma (Unit Testing)
 
-- In this project we create log file with the current time and store information about all running processes as its name ,
-PID, memory usage.
-- Our automation script executes periodically depends on the time specified
-by the user using 
-scheduler of python.After periodic execution it sends the log file to the specified email address.
+---
 
-To run the script:
-- python3 PeriodicLogger.py [OPTIONS] or [PATH]
+## ✨ Key Features
 
-- Option : -h help -u usage
+* 📚 Knowledge sharing platform for institute members
+* 🔄 Clean and modular Angular architecture
+* 🔗 Inter Component Communication (ICC)
+* 🧩 Reusable components and services
+* 💉 Dependency Injection for better scalability and maintenance
+* ☁️ Cloud deployment using Firebase
+* ⚡ Fast and responsive user experience
 
-Path: Absolute path where you want to create the log file.
+---
 
-# Project : File Packer and Unpacker
+## 🧠 Angular Concepts Used
 
-Technology : Java Programming
+This project demonstrates both **basic and advanced Angular concepts**, including:
 
-Description : 
+* Components & Modules
+* Inter Component Communication (ICC)
+* Angular Services
+* Dependency Injection
+* Routing & Navigation
+* Form Handling
+* Project Structuring and Best Practices
 
-This project is used to perform process monitoring activity. This Project is divided into 2 parts as Packing and Unpacking. By using this project we can fetch data from all files and merge it into one file. As well as we can also extract all packed file whenever required.
+---
 
-The main reason to do this project is to understand File system call like open() , creat() , read() , write(),etc
-- Application_Name: File Packer-Unpacker
+## 🚀 Development Server
 
-Output :
+Run the following command to start the development server:
 
-         1. HomePage
-![HomePage](https://github.com/Neha-Jagtap4/fileproject-responso/assets/95733967/291e5d97-8691-42da-ad59-bc0ca94a2530)
+```bash
+ng serve
+```
 
-         2.MenuPage
-![MenuPage](https://github.com/Neha-Jagtap4/fileproject-responso/assets/95733967/64863bc6-2c53-4c9d-8f23-0c9849562b2a)
-        
-         3.Packing Portal
-![PackingPortal](https://github.com/Neha-Jagtap4/fileproject-responso/assets/95733967/1f5b32f4-153b-42f9-9b98-b15256b06bb7)
-        
-         4.Unpacking Portal
-![UnpackingPortal](https://github.com/Neha-Jagtap4/fileproject-responso/assets/95733967/dc90b585-9bfa-43f8-b641-ee442e362dff)
+Navigate to:
 
-# Project : Generic Standard Template Library
+```
+http://localhost:4200/
+```
 
-Technology : C++ Programming
+The application will automatically reload if you change any of the source files.
 
-Description : 
-- This Project contains the generic implementation of all the data structures.
-- As it contains of functionality in generic format we can use it for any type of requirement.
-- This project contains of functionality for operations which is helpful for development.
+---
 
-# Project : Customized Virtual File System
+## 🏗️ Build Project
 
-Technology : C and C++ Programming
+To build the project, run:
 
-Description : 
-This project is used to create customized file system which can work on Windows NT platform. We are going to implement unix file system. This project is used to emulate all functionalities provided by File systems.
+```bash
+ng build
+```
 
-- Platform required : Windows NT platform OR Linux Distributions
+The build artifacts will be stored in the `dist/` directory.
 
-- Hardware requirement : Minimum 512 MB RAM
+For a production build, use:
 
-- Architectural requirement : Intel 32 bit processor
+```bash
+ng build --prod
+```
 
-- User Interface : Command User Interface
+---
 
-Data Structure used in the Project:
+## 🌍 Deployment
 
-- UAREA
-- FILE TABLE
-- IIT (IN CORE INODE TABLE)
-- USER FILE DESCRIPTOR TABLE
-- BOOT BLOCK
-- SUPER BLOCK
-- DILB (DATA INODE LIST BLOCK)
-- DATA BLOCK
+The application is deployed using **Firebase Hosting**.
 
-To run this project use below commands
+🔗 **Live URL:** [https://sharingportal-177c1.web.app](https://sharingportal-177c1.web.app)
 
-Open terminal / command prompt and type below command:
-- g++ CVFS.cpp -o myexe
-- Then execute the myexe file, if you're using windows then type myexe or using Linux distros use ./myexe 
+---
 
-Output : 
-![CVFS1](https://github.com/Neha-Jagtap4/fileproject-responso/assets/95733967/d9815beb-dc5b-41fd-ad6b-854fa297e2f9)
-![CVFS2](https://github.com/Neha-Jagtap4/fileproject-responso/assets/95733967/fcfd4039-7b9d-4ad1-9b12-20858dbec9b3)
-![CVFS3](https://github.com/Neha-Jagtap4/fileproject-responso/assets/95733967/c3b2f059-8a5e-4ca2-9c2b-168c7f353b72)
+## 🧪 Running Unit Tests
 
-# Angular Applications : 
-- Step-1: Install angular cli :
-npm install - g @angular/cli
-- Step-2: Create new project by this command : 
-Choose yes for routing option and, CSS or SCSS 
-- ng new Angular_Application
-- Step-3: Run server and see your application in action
-: ng serve -o 
+Run the following command to execute unit tests via **Karma**:
 
-# Automation_Programs : 
-Step-1: To run the script:
-- python Demo.py [OPTIONS] or [PATH]
-- Option : -h help -u usage
+```bash
+ng test
+```
 
-# C_and_C++_Programs Data_Structures : 
-Step-1: To run Program
-- C_Program: gcc first.c -o myexe
-- C++_Program: g++ second.cpp -o myexe
+---
 
-# IP Messenger : 
-Technology : Java
+## ❓ Further Help
 
-Description : 
-- This is my first ever Java project.
-- Client-Server messaging system which can be used to communicate between local client and a remote server using java sockets and streams.
+To get more help on the Angular CLI, use:
 
-# Java_Applications :
-Step-1: To run java programs
-- javac Demo.java
-- java Demo
+```bash
+ng help
+```
 
-# MachineLearning_Application : 
-Steps:
-- Download and install Python SciPy and get the most useful package for machine learning in Python.
-- Load a dataset and understand it’s structure using statistical summaries and data visualization.
-- Create machine learning models, pick the best and build confidence that the accuracy is reliable.
-- We can also install by using cmd : for ex- pip install numpy 
+You can also refer to the official Angular documentation for detailed guidance.
 
-# Python_Programs
-Step: To run it on command line, type the following
-- python Demo.py
+---
+
+## 👩‍💻 Author
+
+**Neha Jagtap**
+Software Developer | Full Stack | Cloud | AI Enthusiast
+🌐 Portfolio: [https://portfolio-nehajagtap29.web.app/](https://portfolio-nehajagtap29.web.app/)
+
+---
+
+⭐ If you find this project helpful, feel free to star the repository and share your feedback!
